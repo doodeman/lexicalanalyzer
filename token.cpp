@@ -2,7 +2,6 @@
 
 Token::Token(void)
 {
-
 }
 
 Token::~Token(void)
@@ -165,7 +164,7 @@ std::string Token::tokenCodeToString(void)
 	    return "tc_ERROR";
 	case TokenCode::tc_ERROR2:
 	    return "tc_ERROR2";
-	case TokenCode::tc_NON:
-	    return "tc_NON";
+	case TokenCode::tc_NONE:
+	    return "tc_NONE";
 	}
 }
